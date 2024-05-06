@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin-top: 50px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset {
+  width: 150px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background: #1f3540;
+  font-size: 26px;
+  color: #26ffcb;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.boxes {
+  display: flex;
+  height: 120px;
+  width: 120px;
+  background: #1f3540;
+  border: 4px solid #0f1b21;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
